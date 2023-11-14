@@ -3,4 +3,10 @@ src = "src"
 out = "out"
 libs = ["lib"]
 
+remappings = [
+    '@superfluid-finance/ethereum-contracts=lib/superfluid-protocol-monorepo/packages/ethereum-contracts',
+    '@superfluid-finance/solidity-semantic-money=lib/superfluid-protocol-monorepo/packages/solidity-semantic-money',
+    '@openzeppelin/=lib/openzeppelin-contracts/',
+]
+
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
